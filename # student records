@@ -1,0 +1,9 @@
+import pandas as pd  # <-- This line is necessary
+
+data = {
+    'students': ["vinu", "raghu", "vinod"],
+    'marks': [10, 15, 20],  # fixed column name
+}
+
+df = pd.DataFrame(data)
+print("Student records \n\n", df)
