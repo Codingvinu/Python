@@ -1,0 +1,2 @@
+import random as r
+print(r.randint(1000,10000))
