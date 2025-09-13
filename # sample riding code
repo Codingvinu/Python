@@ -1,0 +1,11 @@
+weight=int(input("enter the weight of person"))
+if(weight>=5):
+    print("we can ride")
+    age=int(input("enter the age of person"))
+    if(age>=18):
+        print("we have to pay 150 rupees")
+    elif age<=18:
+        print("we have to pay 250")
+else:
+    print("we cannot ride")
+print("good bye")
